@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    stages {
+	    stage('git') {
+            steps {
+				git branch: 'master', credentialsId: '92632680-2aa0-4ed7-aab0-b0ec17287d71', url:'http://212.129.149.40/171250561_seciiiteam/sciiiteam_project.git'
+            }
+        }
+        stage('clean&package') {
+            steps {
+                bat 'mvn clean package'
+            }
+        }
+        stage('testReport'){
+        	steps{
+        		jacoco()
+        	}
+        }
+        stage('deploy') {
+            steps {
+        		withEnv(['JENKINS_NODE_COOKIE==dontkillme']){
+        			bat 'call deploy.bat'
+        		}
+            }
+        }
+	}
+}
