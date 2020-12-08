@@ -1,0 +1,214 @@
+.affiliations li{
+    display:flex;
+    width:100%;
+}
+
+.affiliations li div{
+    font-size:1.25em;
+    text-align:center;
+    padding:7px 10px 7px 10px;
+    font-family: Verdana;
+    background-color:#fcfcfc;
+}
+
+.affiliationName{
+    width:40%;
+}
+
+.affiliationCitation{
+    width:20%;
+}
+
+.affiliationGIndex{
+    width:20%;
+}
+
+.affiliationPaperNumber{
+    width:20%;
+}
+
+
+.authors li{
+    display:flex;
+    width:100%;
+}
+
+.authors li div{
+    font-size:1.25em;
+    text-align:center;
+    padding:7px 10px 7px 10px;
+    font-family: Verdana;
+    background-color:#fcfcfc;
+}
+
+.authorName{
+    width:40%;
+}
+
+.authorCitation{
+    width:20%;
+}
+
+.authorGIndex{
+    width:20%;
+}
+
+.authorPaperNumber{
+    width:20%;
+}
+
+.papers li{
+    display:flex;
+    width:100%;
+}
+
+.papers li div{
+    font-size:1.25em;
+    text-align:center;
+    padding:7px 10px 7px 10px;
+    font-family: Verdana;
+    background-color:#fcfcfc;
+}
+
+.paperName{
+    width:75%;
+}
+
+.paperCitation{
+    width:25%;
+}
+
+.meetings li{
+    display:flex;
+    width:100%;
+}
+
+.meetings li div{
+    font-size:1.25em;
+    text-align:center;
+    padding:7px 10px 7px 10px;
+    font-family: Verdana;
+    background-color:#fcfcfc;
+}
+
+.meeting_name{
+    width:50%;
+}
+
+.meeting_paperNumber{
+    width:25%;
+}
+
+.meeting_citation{
+    width:25%;
+}
+
+.lt-top {
+    margin-top: 32px;
+}
+
+.lt-top-tilte {
+    color: #040605;
+    font-size: 30px;
+    margin: 0 0 19px 0;
+    font-weight: 500;
+}
+
+.lt-top-num {
+    background: #f5f5f5;
+    padding: 1px 0;
+    margin: 14px 0;
+}
+
+.lt-top-num ul li .lt-num-text {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 4px;
+}
+
+.lt-top-num ul li {
+    float: left;
+    padding: 18px 1px 1px 1px;
+    width: 49.83224296%;
+    height: 65px;
+    text-align: center;
+    font-size:25px;
+    background-color:#fcfcfc;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    color: #040605;
+    /*font-size: 28px;*/
+    font-weight: 500;
+}
+
+.liFont{
+    font-size: 28px;
+    padding-left:12px;
+}
+
+.icon.literature {
+    width: 26px;
+    height: 26px;
+    background-position: -10px -631px;
+}
+
+.lt-bottom {
+    text-align: center;
+    position: relative;
+    margin-top: 26px;
+}
+
+.doc-text {
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 5px solid #bdd2ec;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.title-text {
+    font-size: 24px;
+    line-height: 26px;
+    height: 26px;
+    color: #262626;
+    text-align: left;
+    background: #fff;
+    border-left: 5px solid #417dc9;
+    margin: 20px 0;
+}
+
+.content-wrapper {
+    position: relative;
+    width: 100%;
+
+    align-content: center;
+}
+
+.lt-middle-content {
+    margin-top: 30px;
+    position: absolute;
+    min-height: 456px;
+    width: 100%;
+}
+
+.lt-bottom {
+    text-align: center;
+    position: relative;
+    margin-top: 26px;
+}
+
+.fontstyle {
+    background: #f5f5f5;
+    border: 1px solid #eee;
+    margin-bottom:20px;
+}

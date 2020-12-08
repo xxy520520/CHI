@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学者画像</title>
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/authorMap.js"></script>
+    <script src="/js/echarts.js"></script>
+
+    <link href="/css/public.css" rel="stylesheet" type="text/css">
+    <link href="/css/authorMap.css" rel="stylesheet" type="text/css">
+    <!--导航框样式-->
+    <link href="/css/public.css" rel="stylesheet" type="text/css">
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="top me-top">
+        <div class="container me-container">
+            <style>
+                .anxs-top-88qwe-logo_sns{padding: 9px 0;float: left;height:84px;box-sizing: border-box;}.anxs-top-88qwe-logo_sns a{color: #333;cursor: pointer;text-decoration: none}.anxs-top-88qwe-logo_sns .anxs-top-88qwe-imgwrapper{margin-right:25px;display: block;float: left;}.anxs-top-index_sns{float: left;line-height: 60px;}.anxs-top-88qwe-logo_sns .nav_color_index{font-size: 16px;vertical-align: middle; margin: 0 10px;}.anxs-top-88qwe-logo_sns .nav_color_index:hover{color: #427dc9;}
+            </style>
+            <div class="anxs-top-88qwe-logo_sns">
+                <div class="anxs-top-index_sns">
+                    <a href="/searchPage" class="nav_color_index">首页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="authorMap container">
+        <div class="authorIntroduce">
+
+        <div class="lt-top">
+            <div class="infor-wrap">
+                <div class="scholar-picture"><img src="/png/author.png" id="abstract_img"></div>
+                <div class="scholar-infor">
+                    <div class="lt-top-infor">
+                        <div class="authorName"></div>
+                    </div>
+                    <div class="nowAffiliation"></div>
+                    <div class="representPaper"></div>
+                    <div class="mainMeeting"></div>
+                </div>
+            </div>
+        </div>
+            <div class="authorData">
+                <div class="lt-top-num clear">
+                    <ul>
+                        <li><div class="totalPapers lt-num-text"></div></li>
+                        <li><div class="citation lt-num-text"></div></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="lt-middle">
+                <div class="middle-content">
+                    <div class=" title-text-top">
+                        <span class="doc-text">代表性研究方向：</span>
+                    </div>
+                    <div class="representFields"></div>
+
+                    <div class=" title-text">
+                        <span class="doc-text">当前研究方向：</span>
+                    </div>
+                    <div class="nowFields"></div>
+                </div>
+
+                <div class="middle-content">
+                    <div class="operation"></div>
+                    <div id="authorNetWork" style="position: relative; overflow: hidden; width: 436px; height: 328px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;font-size:24px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

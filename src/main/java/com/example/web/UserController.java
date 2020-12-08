@@ -1,6 +1,5 @@
 package com.example.web;
 
-import com.example.InterceptorConfiguration;
 import com.example.domain.Response;
 import com.example.domain.User;
 import com.example.domain.userForm;
@@ -23,7 +22,7 @@ public class UserController {
             return Response.buildFailure(ACCOUNT_INFO_ERROR);
         }
         //注册session
-        session.setAttribute(InterceptorConfiguration.SESSION_KEY,userform);
+
         return Response.buildSuccess(user);
     }
 

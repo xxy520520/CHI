@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>机构画像</title>
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/affiliationMap.js"></script>
+    <script src="/js/echarts.js"></script>
+    <link href="/css/public.css" rel="stylesheet" type="text/css">
+    <link href="/css/affiliationMap.css" rel="stylesheet" type="text/css">
+    <!--导航框样式-->
+    <link href="/css/public.css" rel="stylesheet" type="text/css">
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="top me-top">
+        <div class="container me-container">
+            <style>
+                    .anxs-top-88qwe-logo_sns{padding: 9px 0;float: left;height:84px;box-sizing: border-box;}.anxs-top-88qwe-logo_sns a{color: #333;cursor: pointer;text-decoration: none}.anxs-top-88qwe-logo_sns .anxs-top-88qwe-imgwrapper{margin-right:25px;display: block;float: left;}.anxs-top-index_sns{float: left;line-height: 60px;}.anxs-top-88qwe-logo_sns .nav_color_index{font-size: 16px;vertical-align: middle; margin: 0 10px;}.anxs-top-88qwe-logo_sns .nav_color_index:hover{color: #427dc9;}
+                </style>
+            <div class="anxs-top-88qwe-logo_sns">
+                <div class="anxs-top-index_sns">
+                    <a href="/searchPage" class="nav_color_index">首页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="affiliationMap container">
+        <div class="affiliationIntroduce lt-top">
+            <div class="affiliationName lt-top-tilte"></div>
+            <div class="lt-top-num clear">
+                <ul>
+                    <li>
+                        <div class="totalAuthors lt-num-text "></div>
+                    </li>
+                    <li>
+                        <div class="totalPapers lt-num-text"></div>
+                    </li>
+                    <li>
+                        <div class="citation lt-num-text"></div>
+                   </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="affiliationData">
+
+            <div class="content-wrapper">
+                <div class=" title-text">
+                    <span class="doc-text">相关学者</span>
+                </div>
+                <div >
+                    <div >
+                        <div class="author">
+                            <div class="authorList fontstyle"></div>
+                            <div class="authorList-pages">
+                                <div class="authorList-item">
+                                    <span>共</span>
+                                    <span id="authorList-count">0</span>
+                                    <span>人</span>
+                                </div>
+                                <div class="authorList-item">
+                                    <span id="authorList-curr-page">1</span>
+                                    <span>/</span>
+                                    <span id="authorList-total-page">100</span>
+                                </div>
+                                <div class="authorList-item">
+                                    <button id="authorList-home">首页</button>
+                                    <button id="authorList-prev">上页</button>
+                                    <button id="authorList-next">下页</button>
+                                    <button id="authorList-last">尾页</button>
+                                </div>
+                                <div class="authorList-item">
+                                    <button id="authorList-goTo">转到</button>
+                                    <input type="number" id="authorList-goToPage" />
+                                    <span>页</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="affiliationData">
+            <div class="content-wrapper">
+                <div class=" title-text">
+                    <span class="doc-text">相关文献</span>
+                </div>
+                <div >
+                    <div >
+                        <div class="paper">
+                            <div class="paperList fontstyle"></div>
+                            <div class="paperList-pages">
+                                <div class="paperList-item">
+                                    <span>共</span>
+                                    <span id="paperList-count">0</span>
+                                    <span>篇</span>
+                                </div>
+                                <div class="paperList-item">
+                                    <span id="paperList-curr-page">1</span>
+                                    <span>/</span>
+                                    <span id="paperList-total-page">100</span>
+                                </div>
+                                <div class="paperList-item">
+                                    <button id="paperList-home">首页</button>
+                                    <button id="paperList-prev">上页</button>
+                                    <button id="paperList-next">下页</button>
+                                    <button id="paperList-last">尾页</button>
+                                </div>
+                                <div class="paperList-item">
+                                    <button id="paperList-goTo">转到</button>
+                                    <input type="number" id="paperList-goToPage" />
+                                    <span>页</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class=" title-text">
+                <span class="doc-text">相关会议</span>
+            </div>
+            <div class="meetingList fontstyle"></div>
+
+        </div>
+
+        <div id="affiliationNetWork" style="width: 100%;height:800px;"></div>
+    </div>
+
+</body>
+</html>
