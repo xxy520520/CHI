@@ -88,7 +88,7 @@ background: -webkit-linear-gradient(top, #2554af, #16397c);-webkit-border-radius
 .info1, .info2, .info4, .info5{ position:absolute; top:0}
 .info1{ width:80px; left:0; }
 .info1 span { padding-top:5px; display:block}
-.info2{ width:146px; left:80px;}
+.info2{ width:80px; left:60px;}
 .info2 select{ width:146px;}
 .info3{ padding:0 134px 0 226px;}
 .info3 input{ width:100%}
